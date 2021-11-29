@@ -36,12 +36,12 @@ crc console --credentials
 
 2. Type Ansible into the filter window and choose Ansible Automation Platform
 
-[!choose_aap](images/choose_aap.png)
+![choose_aap](images/choose_aap.png)
 
 3. Click install
 
-[!click_install](images/click_install.png)
+![click_install](images/click_install.png)
 
 4. Allow all the defaults and click install again
 
-[!all_defaults](images/all_defaults.png)
+![all_defaults](images/all_defaults.png)
