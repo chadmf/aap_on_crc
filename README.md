@@ -113,3 +113,10 @@ crc console --credentials
 Now you have a fully functional AAP instance to test with.
 
   ![aap_dashboard](images/aap_dash.png)
+
+## Known Issues and fixes
+
+### AAP Memory Requirements
+
+The AAP operator by default assigns 2gib to each container. Due to this your deployment of AAP may fail with 12gib
+To fix this you will need to change the memory allocation to the containers in the AC yaml file by adding memory 1gib to the spec section like the image below:
