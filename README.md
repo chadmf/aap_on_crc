@@ -120,7 +120,8 @@ Now you have a fully functional AAP instance to test with.
 
 ### AAP Memory Requirements
 
-The AAP operator by default assigns 2gib to each container. Due to this your deployment of AAP may fail with 12gib you can see the failuere under pods in the Ansible Automation Project like this:
+The AAP operator by default assigns 2gib to each container. Due to this your deployment of AAP may fail with only 12gib assigned to CRC. You can see the failure under pods in the Ansible Automation Project like this:
+
 ![pod_failure](images/podfailure.png)
 
 To fix this you had a few options:
