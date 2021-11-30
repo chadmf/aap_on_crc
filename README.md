@@ -6,7 +6,7 @@ This is a quick how to deploy Ansible Automation platform locally on Code Ready 
 
 [Red Hat CodeReady Containers aka CRC](https://developers.redhat.com/products/codeready-containers/overview) is a very easy to install local OpenShift cluster that runs on your laptop. This works for any operating system and can be downloaded from [here.](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/)
 
-## CRC Installation
+## CodeReady Containers Installation
 
 Instructions to install crc are [here](https://access.redhat.com/documentation/en-us/red_hat_codeready_containers/1.35/html/getting_started_guide/installation_gsg)
 
@@ -111,3 +111,5 @@ crc console --credentials
   ![select_sub](images/select_sub.png)
 
 Now you have a fully functional AAP instance to test with.
+
+  ![aap_dashboard](images/aap_dash.png)
