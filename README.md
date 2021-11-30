@@ -98,7 +98,7 @@ crc console --credentials
 
 ---
 
-## Loging to AAP console (click on link on right password is in the Admin Password link)
+## Loging to AAP console (click on URL link on right. The password is in the Admin Password link below the URL)
 
   ![aap_login](images/login_aap.png)
 
