@@ -14,14 +14,13 @@ Instructions to install crc are [here](https://access.redhat.com/documentation/e
 
 TL;DR if you are on a mac you must be on 10.14 or above and you can just need to run crc binary you installed. (for Linux you will need to install libvirt via ```yum install virt-manager or apt if on debian``` and windows hyper-v must be enabled see install instructions above)
 
-### From terminal:
+### From terminal
 
   ```shell
   crc setup
   ```
 
-Increase default cpus so you can run AAP. `Note:` You can sometimes get away with 6, however 8 has worked best for most people 
-
+Increase default cpus so you can run AAP. `Note:` You can sometimes get away with 6, however 8 has worked best for most people
 
   ```shell
   crc config set cpus 8
