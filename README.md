@@ -29,7 +29,7 @@ From terminal:
 Then to run it:
 
 ```shell
-crc run
+crc start
 ```
 
 Once it is installed it should give you information to log in, however you can always retrieve this with:
