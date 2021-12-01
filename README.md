@@ -6,22 +6,29 @@ This is a quick how to deploy Ansible Automation platform locally on Code Ready 
 
 [Red Hat CodeReady Containers aka CRC](https://developers.redhat.com/products/codeready-containers/overview) is a very easy to install local OpenShift cluster that runs on your laptop. This works for any operating system and can be downloaded from [here.](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/)
 
+[Ansible Automation Platform (AAP)](https://www.ansible.com/products/automation-platform) is the latest release of what was formerly known as Ansible Tower with many new features.
+
 ## CodeReady Containers Installation
 
 Instructions to install crc are [here](https://access.redhat.com/documentation/en-us/red_hat_codeready_containers/1.35/html/getting_started_guide/installation_gsg)
 
 TL;DR if you are on a mac you must be on 10.14 or above and you can just need to run crc binary you installed. (for Linux you will need to install libvirt via ```yum install virt-manager or apt if on debian``` and windows hyper-v must be enabled see install instructions above)
 
-From terminal:
+### From terminal:
 
   ```shell
   crc setup
   ```
 
+Increase default cpus so you can run AAP. `Note:` You can sometimes get away with 6, however 8 has worked best for most people 
+
+
   ```shell
-  crc config set cpus 6
+  crc config set cpus 8
   ```
   
+Increase default memory so you can run AAP.
+
   ```shell
    crc config set memory 12288
    ```
@@ -124,7 +131,7 @@ The AAP operator by default assigns 2gib to each container. Due to this your dep
 
 ![pod_failure](images/podfailure.png)
 
-To fix this you had a few options:
+To fix this you have a few options:
 
 1. Add more ram via crc setup set memory 16384
 2. Change the memory resource limits to the pod (Deployments >> Edit Resource limits)
