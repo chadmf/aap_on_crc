@@ -1,4 +1,4 @@
-# How to deploy Ansible Automation Platform via the Operator on Code Ready containers
+# How to deploy Ansible Automation Platform via the Operator on CodeReady Containers
 
 This is a quick how to deploy Ansible Automation platform locally on Code Ready Containers for a quick demo, or home lab.
 
