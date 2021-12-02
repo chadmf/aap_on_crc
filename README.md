@@ -16,6 +16,14 @@ TL;DR if you are on a mac you must be on 10.14 or above and you can just need to
 
 ### From terminal
 
+Untar files
+
+  ```shell
+  tar -xvf crc-linux-amd64.tar.xz
+  ```
+
+Run setup
+
   ```shell
   crc setup
   ```
