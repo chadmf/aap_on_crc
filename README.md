@@ -38,6 +38,10 @@ Then to run it:
 crc start
 ```
 
+>>Note: If this is the first time you are installing CodeReady it will ask for a pull secret. You will need to get this from [https://cloud.redhat.com](https://cloud.redhat.com) once logged in choose openshift on the left followed by local install and click copy pull secret and paste it into the terminal.
+
+![pull_secret](images/pull_secret.png)
+
 Once it is installed it should give you information to log in, however you can always retrieve this with:
 
 ```shell
