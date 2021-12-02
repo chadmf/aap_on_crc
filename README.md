@@ -21,6 +21,12 @@ Untar files
   ```shell
   tar -xvf crc-linux-amd64.tar.xz
   ```
+  
+Copy files to bin
+
+```shell
+sudo cp crc-linux-*1.36.0*-amd64/crc /bin/.
+```
 
 Run setup
 
